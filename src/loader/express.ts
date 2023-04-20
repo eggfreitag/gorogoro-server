@@ -1,4 +1,4 @@
-import express, { Express, Request, Response } from "express";
+import express, { Express } from "express";
 
 export default async (app: Express) => {
   app.use(express.urlencoded({ extended: true }));

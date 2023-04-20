@@ -1,5 +1,6 @@
 import { Express } from "express";
-import expressLoader from "./Express";
+
+import expressLoader from "./express";
 
 const loader = async (app: Express) => {
   await expressLoader(app);
